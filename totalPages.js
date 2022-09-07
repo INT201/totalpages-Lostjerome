@@ -9,6 +9,7 @@ function totalPages(arrayItems, rowsPerPage) {
     return 1;
   }
 
+  return Math.ceil(arrayItems.length / rowsPerPage);
   
 }
 module.exports = totalPages
